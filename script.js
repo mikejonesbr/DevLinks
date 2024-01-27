@@ -16,10 +16,10 @@ function toggleMode() {
   
   // se tiver light mode, adicionar a imagem light
   if(html.classList.contains('light')){
-    img.setAttribute("src", "./assets/assets/pedro2.jpg")  
+    img.setAttribute("src", "/assets/assets/pedro2.jpg")  
   
     // se tiver sem light mode, manter a imagem normal
   } else {
-    img.setAttribute("src", "./assets/assets/pedro.jpg")
+    img.setAttribute("src", "/assets/assets/pedro.jpg")
   }
 }
